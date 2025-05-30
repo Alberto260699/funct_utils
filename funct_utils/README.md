@@ -26,6 +26,6 @@ a = [0, 1, 3, 7, 10, 7, 3, 1, 0]
 print(find_FWHM(a))
 
 x = [0, 1, 3, 2, 5, 1, 0]
-peaks, indices = find_peaks(x)
+peaks, indices = find_peaks(x, 1)
 print(peaks, indices)
 ```
