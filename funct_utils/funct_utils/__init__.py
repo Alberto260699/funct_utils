@@ -1,1 +1,1 @@
-from .core import find_FWHM, find_peaks, find_min
+from .core import find_FWHM, find_FWFM, find_peaks, find_max, find_min, fattoriale, fibonacci_serie, common_el, bisection, bisection_graph, bisection_graph1, loadufile, taylor, confronta_file, confronta_lista_file, confronta_cartelle, mostra_risultati

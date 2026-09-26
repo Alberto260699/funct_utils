@@ -1,7 +1,7 @@
 Metadata-Version: 2.4
 Name: funct_utils
-Version: 0.1
-Summary: Libreria per calcolo FWHM, rilevamento picchi e minimi
+Version: 1.0
+Summary: Libreria per il calcolo algebrico e grafico
 Home-page: https://github.com/Alberto260699/funct_utils
 Author: Alberto
 Classifier: Programming Language :: Python :: 3
@@ -9,6 +9,8 @@ Classifier: Operating System :: OS Independent
 Description-Content-Type: text/markdown
 Requires-Dist: numpy
 Requires-Dist: scipy
+Requires-Dist: uncertainties
+Requires-Dist: sympy
 Dynamic: author
 Dynamic: classifier
 Dynamic: description
