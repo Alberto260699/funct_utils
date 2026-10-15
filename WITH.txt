@@ -1,0 +1,18 @@
+##############################
+## come e perchè usare WITH ##
+##############################
+
+quando lavori con i file devi sempre ricrodarti di chiudere i file 
+per non avere memoria occupata per niente, with li chiude in automatico
+
+caso 1 (senza WITH)
+
+ciao=open('ciao.txt', 'r')
+for riga in ciao:
+    print(riga)
+ciao.close()
+
+caso 2 (con WITH)
+with open('ciao.txt', 'r') as ciao:
+    for riga in ciao:
+        print(riga)

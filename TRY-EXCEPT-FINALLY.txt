@@ -1,0 +1,33 @@
+#################################################
+## gestione degli errori TRY, EEXCEPT, FINALLY ##
+#################################################
+
+li puoi consideare come se fossero degli if, else per gestire gli output di errore
+
+esempio
+
+def moltiplicazion():
+	a=int(input('primo valore:'))
+	b=int(input(secondo valore:'))
+	risultato=a*b
+	print(risultato)
+	
+moltiplicazione()
+
+se per al posto di metter numeri metti delle letttere uscira un ValueError allora:
+
+def moltiplicazion():
+	try:
+		a=int(input('primo valore:'))
+		b=int(input(secondo valore:'))
+		risultato=a*b
+		print(risultato)
+	except ValueErroe:
+		print('solo numeri') oppure puoi mettere il comando pass per proseguire senza 
+		farti uscire l'errore (il programma non va in crush perchè gestisce l'eccezione)
+	finally:
+		pezzo di codice che viene eseguito qualsiasi cosa succeda
+	
+moltiplicazione()
+
+NB: inserisci solo la parte problematica i try-except e non tutto il codice
